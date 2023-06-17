@@ -1,10 +1,7 @@
-from flask import Flask
+import sys
+sys.path.append('./src')
+import app
 
-app=Flask(__name__)
-
-@app.route('/',methods=['GET'])
-def welcome():
-    return "hello wolrd"
-
+#running the server
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.app.run(debug=True)
