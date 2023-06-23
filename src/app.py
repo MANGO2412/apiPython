@@ -26,6 +26,10 @@ MongoURC=os.getenv('URL_DATABASE')
 mongo=db.DB(MongoURC,MongoURL,app)
 
 #api routes
+@app.route('/',methods=['GET'])
+def welcome():
+     return "jajaj"
+     
 @app.route('/movies',methods=['GET'])
 def getMovies():
      data=mongo.getALL('Movie')
