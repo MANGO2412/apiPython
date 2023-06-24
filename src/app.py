@@ -1,6 +1,6 @@
 #env
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import db
 #my modules
 from flask import Flask,jsonify,request,Response
