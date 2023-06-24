@@ -5,8 +5,8 @@ import db
 #my modules
 from flask import Flask,jsonify,request,Response
 
-from bson import json_util
-from bson.objectid import ObjectId
+# from bson import json_util
+# from bson.objectid import ObjectId
 import json
 from flask_cors import CORS
 
