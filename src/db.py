@@ -1,6 +1,6 @@
 #modules
 from flask_pymongo import PyMongo
-from bson import json_util
+# from bson import json_util
 from pymongo.errors import AutoReconnect,ConnectionFailure,ConfigurationError,ServerSelectionTimeoutError,NetworkTimeout,ExecutionTimeout
 
 class DB:
